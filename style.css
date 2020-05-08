@@ -1,3 +1,4 @@
+/* to be applied to everything */
 *  {
     box-sizing: border-box;
     padding: 0;
@@ -7,6 +8,8 @@
 body {
     background-color: #d9dcd6;
 }
+
+/* start of header css */
 
 .header {
     padding: 20px;
@@ -41,15 +44,20 @@ body {
     margin-left: 25px;
 }
 
+/* end of header css */
+
+/* a taf */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* p tag */
 p {
     font-size: 16px;
 }
 
+/* main image */
 .hero {
     height: 500px;
     width: 100%;
@@ -126,7 +134,7 @@ section img {
 }
 
 
-
+/* start of footer css */
 .footer {
     padding: 30px;
     clear: both;
@@ -137,3 +145,4 @@ section img {
 .footer h2 {
     font-size: 20px;
 }
+/* end of footer css */
